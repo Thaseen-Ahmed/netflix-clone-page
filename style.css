@@ -819,7 +819,7 @@
         margin-top: 8%;
     }
     .img img{
-        height: 73px;
+        height: 65px;
     }
      .netflix-bg .flex input{
         height: 9vh;
@@ -1006,9 +1006,11 @@
         width: 175%;
     }    
     .cont2{
-        height: 55vh;
+        height: 52vh;
     }
-     
+    .cont5 .cld-ph {
+        padding-top: 7%;
+    }
     .cont2 .tv img{
         width: 100%;
         margin-left: 0%;
@@ -1128,11 +1130,15 @@
         height: 56vh;
     }
     .lng{
-        width: 38%;
+        width: 33%;
     }
+    
     .btn button {
-        height: 30px;
+        height: 38px;
         width: 160%;
+    }
+    .img img{
+        height: 53px;
     }
     .content{
         font-size: small;
@@ -1185,12 +1191,10 @@
     }
     .cont5 .crt{
         font-size: 0.9rem;
+        margin-top: 3%;
     }
     .cont5 .cld-ph img {
         height: 32vh;
-    }
-    .cont5 .crt{
-        margin-top: 2%;
     }
     .cont5{
         height: 63vh;
