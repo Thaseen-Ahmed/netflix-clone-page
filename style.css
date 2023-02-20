@@ -1,0 +1,1270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+    
+.netflix-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/Images/net-bg.jpg);
+    background-size: cover;
+    height: 103vh;
+    width: 100%;
+
+}
+
+.img img{
+    height: 80px;
+    width: auto;
+    margin-top: 1rem;
+    margin-left: 5%;
+ 
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5rem;
+    
+}
+
+.lng{
+    display: flex;
+    gap: 30px;
+    height: 35px;
+    margin-top: 3%;
+    font-size: large;
+   
+}
+.lng select{
+   background-color: transparent;
+   width: 100%;
+   color: antiquewhite;
+    
+}
+.lng option{
+    color: whitesmoke;
+    background-color: gray;
+
+}
+.btn button{
+
+    border: none;
+    height: 36px;
+    width: 220%;
+     background-color: red;
+     color: blanchedalmond;
+     font-size: large;
+     outline: none;
+     
+}
+/* .lng{
+    margin-left: 12%;
+    
+}
+.top .btn{
+    margin-right: 5%;
+
+}
+
+.netflix-bg .lng select{
+    margin-left: 55rem;
+    margin-top: 3rem;
+    height: 6vh;
+    width: 15vh;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+
+.lng option{
+    background-color: gray;
+    
+}
+
+.netflix-bg .btn button{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    height: 7vh;
+    width: 82%;
+    background-color: red;
+    border-radius: 0.5rem 0.5rem;
+    color: blanchedalmond;
+} */
+
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    font-size: x-large;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.content p{
+     padding: 2rem;
+     font-size: 1.5ch;
+}
+.bt1 input{
+    height: 9vh;
+    width: 100%; 
+    font-size: large;
+    font-weight: 100%;
+   
+}
+
+
+.bt1{
+   width: 35%; 
+}
+
+
+.sub button{
+    height: 9vh;
+    width: 110%;
+    background-color: #b71c1c;
+    font-size: x-large;
+    color: cornsilk;
+    outline: none;
+    border: none;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.hr{
+    /* line-height: 20%; */
+    border: 4px solid gray;
+
+}
+.cont2{
+    background-color: black;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+}
+.cont2 .en{
+    font-size: x-large;
+    color: antiquewhite;
+    /* text-align: center; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 12%;
+    margin-left: 8%;
+
+}
+.en h2{
+    line-height: 1.5
+    ;
+    font-size: x-large;
+}
+.cont2 .tv{
+    width: 33%;
+    margin-left: 10%;
+
+}
+
+.cont2 .tv img{
+    height: 42vh;
+    width: 88%;
+    margin-top: 24%;
+    margin-left: 3%;
+}
+    
+.cont3{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.cont3 .dwn img{
+    
+    height: 76%;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+    
+
+}
+.cont3 .wtch{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-left: 12%;
+    height: 15%;
+    width: 40%;
+    margin-top: 11%;
+
+
+}
+.see{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.cont4{
+    color: blanchedalmond;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    margin-top: 12%;
+
+}
+.see .ph{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.see .ph img{
+    height: 60vh;
+    width: 95%;
+}
+.see .cnt4 {
+    margin-top: 5%;
+}
+
+
+.cont5{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.cont5 .cld-ph img{
+    height: 55vh;
+    width: 155%;
+    margin-top: 2rem;
+    margin-left: 15%;
+}
+
+.cont5 .crt{
+    color: bisque;
+    font-size: 1.4rem;
+    /* text-align: center; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    height: 60%;
+    width: 90%;
+    padding-left: 25%;
+    margin-top: 8%;
+
+}
+.cont6{
+    background-color: black;
+    height: 125vh;
+    width: 100%;
+}
+.cont6 .fr{
+    color:aliceblue ;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 3%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+/* .cont6 .faq-qes button{
+    height: 10vh;
+    width: 70%;
+    font-size: x-large;
+    background-color: #303030;
+    text-align: left;
+    color: beige;
+    margin-left: 25%;
+    padding: 1%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+} */
+.about{
+    background-color:  black;
+    margin-top: 3%;
+    margin-left: 23%;
+    width: 55%;
+}
+.about .faq-qes .qes-1{
+    color: white;
+}
+.about .faq-qes{
+    text-align: left;
+    height: 10vh;
+    padding: 2%;
+}
+.faq-qes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    margin-bottom: 10px;
+}
+.faq-qes i{
+    padding-right: 10px;
+    font-size: xxx-large;
+    color: white;
+    padding-bottom: 30px;
+    transform: translateY(-13px);
+}
+
+.redy{
+     padding: 2rem;
+     font-size: 1.5ch;
+     color: white;
+    text-align: center;
+    margin-top: 3%;
+    font-size: x-large;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.flex1{
+      display: flex;
+    justify-content: center;
+}
+
+.cont7{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+}
+
+.fotr0 p{
+    color: grey;
+    padding: 3%;
+    padding-left: 12%;
+    font-size: large;
+}
+.cont7 .fotr{
+    color: grey;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: small;
+    margin-top: 5%;
+}
+.cont7 .fotr1{
+    color: grey;
+}
+
+.cont7 .fotr2{
+    color: grey;
+}
+
+.cont7 .fotr3{
+    color: grey;
+}
+
+.cont7 .fotr4{
+    color: grey;
+}
+
+
+.fotr ul li{
+    padding-bottom: 1rem;
+    list-style: none;
+}
+
+.lng2{
+    /* gap: 30px; */
+    height: 3vh;
+    margin-top: 2%;
+    font-size: large;
+    margin-left: 12%;
+    
+}
+.lng2 select{
+   background-color: black;
+   width: 10%;
+   height: 7vh;
+   color: beige;
+    
+}
+.lng2 option{
+    color: whitesmoke;
+    background-color: gray;
+}
+
+.net5{
+    color: darkgray;
+    padding-top: 4%;
+    margin-left: 12%;
+ }
+
+.img2 .pht img{
+    height: 8vh;
+    width: 100%;
+}
+.img2 .down{
+    color: blue;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.img2 .icn img{
+    height: 7vh;
+    width: 90%;
+    margin-top: 3%;
+}
+.img2{
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 10px;
+    margin-left: 25%;
+    transform: translate(0px,-108px);
+}
+
+
+
+@media (max-width: 1100px){
+    .netflix-bg .flex input{
+        width: 100%;
+    }
+    .dwn .wtch{
+        width: 40%;
+        font-size: 1.2rem;
+    }
+    .cont2 .tv{
+        width: 45%;
+        margin-right: 4%;
+    }
+    .cont3 .wtch{
+        font-size: 1.3rem;
+        margin-top: 9%;
+    }
+    .see .ph{
+        margin-left: 1%;
+    }
+    .cont4{
+        margin-left: 3rem;
+        font-size: x-large;
+    }
+    .cont5 .crt{
+        font-size: 1.2rem;
+        padding-left: 22%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1050px){
+    .cont2 .en{
+        margin-top: 9%;
+    }
+    .cont5 .crt{
+        font-size: 1.3rem;
+        margin-top: 6%;
+    }
+    }
+    @media (max-width: 950px){
+        .content{
+            font-size: 1.3rem;
+        }
+        .cont2 .en{
+            font-size: 1.2rem;
+        }
+        .cont3 .wtch{
+            font-size: 1.2rem;
+            margin-left: 7%;
+        }
+        .cont4{
+            font-size: 1.2rem;
+        }
+        .cont5 .crt{
+            font-size: 1.2rem;
+            margin-top: 8%;
+        }
+        .cont5 .cld-ph img{
+            height: 50vh;
+            width: 145%;
+        }
+        .cont6 .fr{
+            font-size: 1rem;
+        }
+        .about{
+            width: 48%;
+            margin-left: 26%;
+        }
+    }
+    @media(max-width: 900px){
+        .cont3 .wtch{
+            margin-left: 0%;
+        }
+        .cont5 .crt {
+            margin-left: -2rem;
+        }
+        .cont5 .cld-ph img {
+            height: 47vh;
+            width: 119%;
+            margin-top: 25%;
+        }
+        .cont5 .crt {
+            margin-left: -5rem;
+        }
+        .redy{
+            font-size: 1.3rem;
+        }
+    }
+    @media(max-width: 850px){
+        .cont5 .cld-ph img {
+            height: 43vh;
+            width: 107%;
+            margin-top: 25%;
+        }
+        .cont5{
+            height: 68vh;
+        }
+        .cont5 .crt {
+            margin-left: -6rem;
+            font-size: 1.2rem;
+        }
+        .about {
+    width: 80%;
+    margin-left: 10%;
+}
+
+    }
+    @media(max-width: 800px){
+        .cont5 .cld-ph img {
+            height: 39vh;
+            width: 102%;
+            margin-top: 25%;
+            font-size: 1.2rem;
+        }
+    }
+@media(max-width: 750px){
+    .netflix-bg{
+        background-position-x: center;
+    }
+    .bt1 {
+        width: 50%;
+    }
+    .cont2{
+        flex-direction: column;
+        height: 75vh;
+    }
+    .netflix-bg{
+        height: 100vh;
+    }
+    .cont2 .en{
+        margin-top: 3%;
+        margin-left:0%;
+        font-size: large;
+    }
+    .cont2 .en h1{
+        width: 100%;
+        text-align: center;
+    }
+    .cont2 .en h2{
+        width: 100%;
+        text-align: center;
+        font-size: larger;
+    }
+    .cont2 .tv img{
+        margin-top: 10%;
+        height: 38vh;
+        width: 100%;
+    }
+    .cont2 .tv{
+      margin-left: 23%;
+    }
+    .content{
+        font-size: 1.2rem;
+        margin-top: 12%;
+    }
+    .cont3{
+        flex-direction: column-reverse;
+        height: 85vh;
+        width: 100%;
+    }
+    .cont3 .dwn img {
+            height: -5vh;
+            width: 50%;
+            margin-top: 0%;
+            margin-left: 25%;
+        }
+        .img2 {
+            width: 38%;
+            height:8vh;
+            margin-left: 31%;
+    }
+    .cont3 .wtch{
+        margin-top: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    .dwn{
+        margin-top: 18%;
+        height: 50vh;
+
+    }
+    .netflix-bg .flex input{
+        height: 8vh;
+    }
+    .sub button{
+        height: 8vh;
+    }
+    .see{
+        flex-direction: column;
+        height: 78vh;
+    }
+    .see .ph img {
+        height: 45vh;
+        margin-top: 1%;
+        width: 60%;
+        margin-left: 20%;
+        
+    }
+    .see .cont4 {
+        margin-left: 2rem;
+        text-align: center;
+        margin-top: 2%;
+}
+    .see .cnt4{
+    margin-top: 2%;
+}
+.see .ph{
+    margin-bottom: 10%;
+}
+.cont5{
+    flex-direction: column-reverse;
+    height: 100vh;
+}
+.cont5 .cld-ph img{
+    width: 65%;
+    height: auto;
+    margin-top: 4%;
+}
+.cont5 .crt{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 35px;
+    margin-top: 3%;
+}
+.cont6{
+    height: 110vh;
+}
+.redy{
+    font: 1.2rem;
+    margin-top: 0%;
+
+}
+.cont7{
+    height: 63vh;
+}
+.bt1 input{
+    height: 8vh;
+}
+}
+@media(max-width:700px){
+    .cont5 .crt{
+    line-height: 25px;
+
+    }
+    .cont2 .tv{
+        margin-left: 28%;
+    }
+    .see .cont4{
+        margin-top: 5%;
+    }
+    .see{
+        height: 80vh;
+    }
+    .cont2{
+        height: 65vh;
+    }
+    .cont2 .tv img {
+        margin-top: 10%;
+        height: 30vh;
+        width: 90%;
+    }
+    .cont3{
+        height: 80vh;
+    }
+    .cont3 .wtch{
+        margin-top: 1%;
+    }
+    .cont5{
+        height: 80vh;
+    }
+    .img2 .down{
+        margin-top: 0%;
+    }
+    .img2 .icn img {
+        height: 6vh;
+    }
+    .img2 .pht img{
+        height: 6vh;
+    }
+    .cont3 .pht .dwn img {
+        height: -5vh;
+        width: 83%;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    .cont5 .crt{
+        margin-left: -11%;
+        line-height: 28px;
+    }
+    .about {
+    /* width: 48%;
+    margin-left: 26%; */
+    font-size: 14px;  
+}
+.cont5 .cld-ph{
+    padding-top: 10%;
+}
+.about .faq-qes{
+    height: 7vh;
+}
+.cont6{
+    height: 90vh;
+}
+.lng2{
+    margin-left: 5%;
+}
+.lng2 select{
+    height: 5vh;
+}
+.net5{
+    margin-left: 5%;
+}
+.cont7{
+    height: 55vh;
+}
+}
+
+@media(max-width:650px){
+    .netflix-bg .flex input{
+        height: 9vh;
+    
+    }
+    .netflix-bg .flex input {
+    width: 135%
+    }
+    .bt1 {
+    width: 43%;
+    }
+    .flex .sub button{
+        height: 9vh;
+        width: 80%;
+        font-size: medium;
+        margin-left: 97%;
+    }
+    .cont2 .tv{
+        margin-top: 4%;
+        margin-left: 25%;
+    }
+    .cont2 .tv img{
+        height: 30vh;
+    
+    }
+    .cont3 .wtch{
+        font-size: large;
+    }
+    .img2 .down{
+        margin-top: -3%;
+    }
+    .cont7{
+        height: 125vh;
+    }
+    .lng2{
+        margin-left: 10%
+    }
+    .fotr0 p{
+        padding: 3rem;
+    }
+    .img2 .down {
+        margin-right: 8%;
+        margin-top: 1%;
+        line-height: 15px;
+    }
+    .cont7 .fotr{
+        flex-direction: column;
+        font-size: large;
+        margin-left: 10%;
+    } 
+   
+    .lng2 select{
+        width: 13%;
+        height: 6vh;
+    }
+    .net5{
+        width: 45%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .see .cont4{
+        font-size: large;
+        line-height: 1.1;
+    }
+    .bt1 input{
+        height: 8vh;
+        width: 111%;
+        font-size: medium;
+        margin-left: 1%;
+    }
+    .sub button{
+        height: 8vh;
+        width: 80%;
+        font-size: medium;
+        margin-left: 34%;
+        
+    }
+} 
+    
+
+@media(max-width:600px){
+    .netflix-bg{
+        height: 100vh;
+    }
+    .lng{
+        margin-top: 8%;
+    }
+    .img img{
+        height: 73px;
+    }
+     .netflix-bg .flex input{
+        height: 9vh;
+    
+    }
+    .netflix-bg .flex input {
+    width: 135%
+    }
+    
+    .flex .sub button{
+        height: 9vh;
+        width: 80%;
+        font-size: medium;
+        margin-left: 90%;
+    }
+      .bt1 input{
+        height: 8vh;
+        /* width: 111%; */
+        font-size: medium;
+        margin-left: 1%;
+    }
+    .sub button{
+        height: 8vh;
+        width: 80%;
+        font-size: medium;
+        margin-left: 30%;
+        
+    }
+    .lng2 select {
+    width: 15%;
+    height: 6vh;
+    }
+}
+@media(max-width:550px){
+    .content{
+        font-size: 1.1rem;
+    }
+    .netflix-bg{
+        height: 83vh;
+    }
+    .netflix-bg .flex input{
+        height: 8vh;
+    }
+    .flex .sub button{
+        height: 7vh;
+    }
+    .flex{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .flex .sub button{
+        width: 35%;
+        margin-left: 0%;
+        margin-top: 2%;
+         
+    }
+    .netflix-bg .flex{
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .flex .bt1{
+        width: 100%;
+        text-align: center;
+    }
+    .netflix-bg .flex input{
+        width: 70%;
+    }
+    .flex1{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+    }
+    .cont5 .cld-ph img{
+        height: 45vh;
+    }
+    .cont5 .crt{
+        line-height: 165%;
+    }
+    .cont6{
+        height: 90vh;
+    }
+    .cont6 .fr{
+        font-size: medium;
+    }
+    
+    .sub button{
+        width: 30%;
+        margin-left: 0%;
+        height: 7vh;
+    }
+    .flex1 .bt1{
+        width: 66%;
+    }
+    .flex1 .bt1 input{
+        width: 100%;
+        margin-left: 25%;
+
+    }
+    .flex1 .sub{
+        margin-top: 1%;
+    }
+}
+@media(max-width:500px){
+    .content{
+        font-size: 1rem;
+    }
+    .lng{
+        width: 38%;
+        height: 6vh;
+        margin-left: 10%;
+    }
+    .btn button{
+        height: 33px;
+        width: 205%;
+        margin-right: -7%;
+    }
+    .cont2 .en{
+        font-size: 1.1rem;
+    }
+    .en h2{
+        line-height: 30px;
+    }
+    .dwn {
+        margin-top: 22%
+    }
+    .cont3 .wtch{
+        margin-top: 22%;
+        font-size: 1.1rem;
+    }
+    .cont5{
+        height: 80vh;
+    }
+    .cont5 .crt {
+    margin-left: -11%;
+    line-height: 25px;
+    }
+    .cont6 .fr{
+        font-size: 0.9rem;
+    }
+    .cont7{
+        height: 115vh;
+    }
+    .net5{
+        padding-top: 4%;
+    }
+    .lng2 select{
+        width: 17%;
+        height: 6vh;
+    }
+    .redy{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:450px){
+    .netflix-bg .flex input{
+        height: 7vh;
+        width: 90%;
+    }
+    .flex .sub button{
+        height: 6vh;
+        border-radius: 5px;
+    }
+    .content{
+        font-size: small;
+        margin-top: 15%;
+        }
+    .top{
+        padding-right: 2rem;
+    }
+    .lng{
+        height: 5vh;
+    }
+    .img img{
+        height: 60px;
+    }
+    .lng{
+        width: 33%;
+    }
+    .btn button {
+        height: 30px;
+        width: 175%;
+    }    
+    .cont2{
+        height: 55vh;
+    }
+     
+    .cont2 .tv img{
+        width: 100%;
+        margin-left: 0%;
+        height: 20vh;
+    }
+    .cont3{
+        height: 63vh;
+    }
+    .img2{
+        margin-top: 15%;
+        height: 6.5vh;
+    }
+    .img2 .down {
+        margin-top: -2%;
+        line-height: 10px;
+    }
+    .img2 .icn img {
+        height: 4.5vh;
+    }
+    .img2 .pht img {
+        height: 5vh;
+    }    
+    .cont3 .wtch{
+        margin-top: 0%;
+    }
+    .cont3 .dwn img{
+        margin-top: -10%;
+        width: 57%;
+    }
+    .cont4{
+        line-height: 1.3rem;
+    }
+    .see{
+        height: 55vh;
+    }
+    .see .ph img{
+        height: 30vh;
+    }
+    .cont5{
+        height: 74vh;
+    }
+    .cont5 .cld-ph img{
+        height: 40vh;
+    }
+    .cont5 .crt{
+        margin-top: 25%;
+    }
+    .cont3 .wtch{
+        font-size: 1rem;
+    }
+    .dwn{
+        margin-top: 26%;
+    }
+    .cont7{
+        height: 103vh;
+    }
+    .cont7 .fotr4 {
+    margin-right: 8%
+    }
+    .cont7 .fotr {
+    flex-direction: column;
+    margin-top: 46%;
+    font-size: larger;
+    }
+    .lng2 select{
+        height: 5vh;
+    }
+    .net5 {
+    padding-top: 2%;
+    margin-left: 10%;
+}
+    .flex1{
+        width: 100%;
+        height: 15vh;
+    }
+    .about{
+        font-size: 12px;
+    }
+    .bt1 {
+    width: 62%;
+    }
+    .cont6 .fr {
+    font-size: 0.8rem;
+    }
+    .cont7 .fotr{
+        margin-top: 0%;
+    }
+    .lng2{
+        margin-top: 2%;
+    }
+    .flex1 .bt1 {
+        width: 93%;
+    }
+    .flex1 .bt1 input {
+    margin-left: 3%;
+    height: 7vh;
+    }
+    .sub button{
+        height: 6vh;
+    }
+    .netflix-bg{
+        height: 60vh;
+    }
+    .cont7 .fotr{
+        font-size: medium;
+    }
+
+}
+@media(max-width:420px){
+    .content{
+        font-size: small;
+        margin-top: 0%;
+    }
+}
+@media(max-width:400px){
+    .netflix-bg{
+        height: 56vh;
+    }
+    .lng{
+        width: 38%;
+    }
+    .btn button {
+        height: 30px;
+        width: 160%;
+    }
+    .content{
+        font-size: small;
+        }
+    .cont2{
+        height: 72vh;
+    }
+    .cont2 .en {
+        font-size: 0.9rem;
+    }
+    .img2{
+        height: 8vh;
+        margin-top: 20%;
+        width: 43%;
+        margin-left: 31%;
+    }
+    .img2 .down{
+        font-size: smaller;
+        margin-top: 0%;
+        line-height: 10px;
+    }
+    .cont3 .dwn img{
+        margin-left: 15%;
+        width: 75%;
+        height: 75%;
+        margin-top: -10%;
+    }
+    .cont3 .wtch{
+        height: 0%;
+    }
+    .cont3 .wtch {
+        font-size: 0.9rem;
+    }
+        .dwn{
+        margin-top: 50%;
+    }
+    
+    .see{
+        height: 65vh;
+    }
+    .see .cont4{
+        margin-left: 0%;
+    }
+    
+    .see .ph img{
+        height: 40vh;
+    }
+    .see .cont4{
+        font-size: 0.9rem;
+    }
+    .cont5 .crt{
+        font-size: 0.9rem;
+    }
+    .cont5{
+        height: 75vh;
+    }
+    .about{
+        font-size: 12px;
+        /* width: 65%;
+        margin-left: 18%; */
+    }
+    .cont6{
+        height: 120vh;
+    }
+    .bt1 input{
+        height: 7vh;
+    }
+    .sub button{
+        height: 7vh;
+    }
+    .flex1{
+        height: 10vh;
+    }
+    .lng2 select{
+        width: 20%;
+        margin-left: -2%;
+}
+
+.about {
+    width: 90%;
+    margin-left: 5%;
+}
+}
+@media(max-width:350px){
+    .img img {
+        height: 50px;
+    }
+    .lng{
+        width: 40%;
+        height: 5vh;
+    }
+    .netflix-bg .flex input{
+        height: 6vh;
+    }
+    .flex .sub button{
+        height: 5vh;
+    }
+    .cont2{
+        height: 47vh;
+    }
+    .cont5{
+        height: 63vh;
+    }
+    .see .ph img{
+        height: 30vh;
+    }
+    .see{
+        height: 48vh;
+    }
+    .cont5 .crt {
+        margin-top: 2%;
+    }
+    .cont5 .cld-ph img {
+        height: 30vh;
+    }
+    .flex1 .bt1 input{
+        height: 6vh;
+    }
+    .sub button {
+    height: 5vh;
+}
+    .cont6{
+        height: 88vh;
+    }
+    .cont7{
+        height: 98vh;
+    }
+    .fotr0 p {
+        padding-top: 3%;
+    }
+    .net5{
+        margin-left: 8%;
+    }
+
+}
